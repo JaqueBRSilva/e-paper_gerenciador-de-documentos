@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import Image, { StaticImageData } from "next/image";
-import { Avatar } from "./avatar";
+import { Avatar } from "../ui/avatar";
 
 interface AvatarUser_Props {
     alt: string;

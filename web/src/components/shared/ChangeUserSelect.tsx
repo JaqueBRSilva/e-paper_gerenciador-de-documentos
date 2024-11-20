@@ -1,6 +1,6 @@
 import AVATAR_IMG from '../../../public/avatar.png';
-import AvatarUser from "./AvatarUser";
-import { Select, SelectContent, SelectItem, SelectTrigger } from "./select";
+import { Select, SelectContent, SelectItem, SelectTrigger } from "../ui/select";
+import AvatarUser from './AvatarUser';
 
 export default function ChangeUserSelect() {
 
