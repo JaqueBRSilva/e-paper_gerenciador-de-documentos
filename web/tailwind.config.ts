@@ -13,6 +13,7 @@ export default {
 				black: '#000000',
 				transparent: 'transparent',
 
+				neutral0: '#F9FAFB',
 				gray200: '#E5E7EB',
 				gray500: '#6B7280',
 				gray700: '#3A424E',
