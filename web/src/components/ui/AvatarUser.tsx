@@ -15,7 +15,8 @@ export default function AvatarUser({ ...imageProps }: AvatarUser_Props) {
                 alt={imageProps.alt}
                 src={imageProps.src}
                 className={cn(
-                    "aspect-square h-full w-full size-9",
+                    "aspect-square h-full w-full size-8 mr-1",
+                    "max-sm:mr-2",
                     imageProps.className
                 )}
             />
