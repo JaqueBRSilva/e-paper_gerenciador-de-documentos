@@ -22,3 +22,13 @@
       @apply bg-white;
   }
 }
+
+  @layer components {
+    .mobile-ui-hidden {
+      @apply max-sm:hidden;
+    }
+  }
+
+  @layer utilities {
+
+  }
