@@ -6,15 +6,15 @@ export default function ChangeUserSelect() {
 
     return (
         <Select>
-            <SelectTrigger className="w-60 h-12">
+            <SelectTrigger className="max-w-56 h-12">
 
                 <AvatarUser
                     alt="avatar do usuário"
                     src={AVATAR_IMG}
                 />
 
-                <div className="flex-col text-left">
-                    <p className="text-base font-bold">
+                <div className="flex-col text-left mr-4 mobile-ui-hidden">
+                    <p className="text-sm font-bold">
                         Nome do usuário
                     </p>
                     <p className="text-xs text-gray500">
