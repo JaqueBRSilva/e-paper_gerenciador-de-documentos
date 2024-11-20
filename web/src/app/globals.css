@@ -5,6 +5,8 @@
 @layer base {
   :root {
     --white: #FFFFFF;
+    --black: #000000;
+    --transparent: transparent;
 
     --gray200: #E5E7EB;
     --gray500: #6B7280;
