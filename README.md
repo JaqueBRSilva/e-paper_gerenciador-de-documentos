@@ -35,7 +35,7 @@
 <h2>💻 DEMONSTRAÇÃO</h2>
 <ul style="list-style-type:circle">
     <li>
-        <a target="_blank" src="https://epaper-front.netlify.app/"
+        <a target="_blank" href="https://epaper-front.netlify.app/"
         >
             Acesse o site por aqui
         </a>
@@ -74,32 +74,32 @@
 <h2>⚒️ 🌟 TECNOLOGIAS & FERRAMENTAS UTILIZADAS</h2>
 <ul style="list-style-type:square">
     <li>
-        <a target="_blank" src="https://nextjs.org/">
+        <a target="_blank" href="https://nextjs.org/">
             Next.js
         </a>
     </li>
     <li>
-        <a target="_blank" src="https://ui.shadcn.com/">
+        <a target="_blank" href="https://ui.shadcn.com/">
             shadcn/ui
         </a>
     </li>
     <li>
-        <a target="_blank" src="https://tailwindcss.com/">
+        <a target="_blank" href="https://tailwindcss.com/">
             Tailwind CSS
         </a>
     </li>
     <li>
-        <a target="_blank" src="https://www.typescriptlang.org/">
+        <a target="_blank" href="https://www.typescriptlang.org/">
             TypeScript
         </a>
     </li>
     <li>
-        <a target="_blank" src="https://www.prisma.io/">
+        <a target="_blank" href="https://www.prisma.io/">
             Prisma
         </a>
     </li>
     <li>
-        <a target="_blank" src="https://ts-rest.com/">
+        <a target="_blank" href="https://ts-rest.com/">
             TS-REST
         </a>
     </li>
