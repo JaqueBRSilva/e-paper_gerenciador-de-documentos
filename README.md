@@ -2,7 +2,7 @@
   <img alt="e-paper logo"
     src="./web/public/e-paper_logo.svg"
     width="50%"
-    height="50%"
+    height="40%"
   />
 </h1>
 
@@ -13,9 +13,20 @@
 
 <br />
 
-<h2>✏️ SOBRE</h2>
+<div align="center">
+    <img
+        alt="e-paper preview"
+        src="https://live.staticflickr.com/65535/54156802215_244beb8247_o.jpg"
+        width="90%"
+        height=""
+    />
+</div>
+
+<br />
+
+<h2>✏️ Sobre</h2>
 <p>
-	Sistema de gerenciamento de documentos. 
+	Simulação de um sistema gerenciador de documentos. 
 </p>
 
 <br />
@@ -32,17 +43,18 @@
 
 <br />
 
-<h2>💻 DEMONSTRAÇÃO</h2>
+<h2>💻 Demonstração</h2>
 <ul style="list-style-type:circle">
     <li>
-        <a target="_blank" href="https://epaper-front.netlify.app/"
-        >
-            Acesse o site por aqui
+        <a target="_blank" href="https://epaper-front.netlify.app/" >
+            Acesse o site aqui
         </a>
     </li>
 </ul>
 
-## 📥 BAIXAR E TESTAR
+<br />
+
+## 📥 Baixar & Testar
 
 1. Tenha o [Node.js](https://nodejs.org/en/) instalado na máquina
 
@@ -71,7 +83,7 @@
 
 <br />
 
-<h2>⚒️ 🌟 TECNOLOGIAS & FERRAMENTAS UTILIZADAS</h2>
+<h2>⚒️ 🌟 Tecnologias & Ferramentas Utilizadas</h2>
 <ul style="list-style-type:square">
     <li>
         <a target="_blank" href="https://nextjs.org/">
@@ -107,19 +119,19 @@
 
 <br />
 
-## 🔓 LICENÇA
+## 🔓 Licença
 
 ### 👉 [MIT](./LICENSE)
 _Uma licença permissiva curta e simples com condições que exigem apenas a preservação de direitos autorais e avisos de licença. Obras licenciadas, modificações e obras maiores podem ser distribuídas em termos diferentes e sem código-fonte._
 
 **Permissões** <br/>
- ✔️ Uso comercial | 
- ✔️ Modificação | 
- ✔️ Distribuição | 
+ ✔️ Uso comercial ●
+ ✔️ Modificação ● 
+ ✔️ Distribuição ●
  ✔️ Uso privado
 
 **Limitações** <br/>
- ❌ Responsabilidade | 
+ ❌ Responsabilidade ●
  ❌ Garantia
 
 **Condições** <br/>
