@@ -2,7 +2,7 @@ import { Bell, LayoutGrid, Menu } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import EPAPER_LOGO from '../../../public/e-paper_logo.svg'
-import ChangeUserSelect from '../ui/ChangeUserSelect'
+import ChangeUserSelect from '../shared/ChangeUserSelect'
 import { Separator } from '../ui/separator'
 
 export default function Header() {
