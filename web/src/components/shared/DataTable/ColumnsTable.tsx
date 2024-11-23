@@ -4,43 +4,92 @@ import { Document_Types } from "@/types/DocumentTypes"
 import formatCurrency from "@/utils/formatCurrency"
 import { ColumnDef } from "@tanstack/react-table"
 import DropdownMenuList from "./DropdownMenuList"
+import SortingColumns from "./SortingColumns"
 
 
 export const columns: ColumnDef<Document_Types>[] = [
   {
     accessorKey: "documentName",
-    header: "Nome do documento",
+    header: ({ column }) => {
+      return (
+        <SortingColumns
+          columnName="Nome do documento"
+          orderDataBy={column}
+        />
+      )
+    },
   },
+
   {
     accessorKey: "issuer",
-    header: "Emitente",
+    header: ({ column }) => {
+      return (
+        <SortingColumns
+          columnName="Emitente"
+          orderDataBy={column}
+        />
+      )
+    },
   },
+
   {
     accessorKey: "totalTaxAmount",
-    header: () => <div className="text-left">Valor total dos tributos</div>,
+    header: ({ column }) => {
+      return (
+        <SortingColumns
+          columnName="Valor total dos tributos"
+          orderDataBy={column}
+        />
+      )
+    },
     cell: ({ row }) => {
       return <div className="text-left font-normal">
         {formatCurrency(row.getValue("totalTaxAmount"))}
       </div>
     },
   },
+
   {
     accessorKey: "netAmount",
-    header: () => <div className="text-center">Valor líquido</div>,
+    header: ({ column }) => {
+      return (
+        <SortingColumns
+          columnName="Valor líquido"
+          orderDataBy={column}
+        />
+      )
+    },
     cell: ({ row }) => {
       return <div className="text-center font-normal">
         {formatCurrency(row.getValue("netAmount"))}
       </div>
     },
   },
+
   {
     accessorKey: "creationDate",
-    header: "Data de criação",
+    header: ({ column }) => {
+      return (
+        <SortingColumns
+          columnName="Data de criação"
+          orderDataBy={column}
+        />
+      )
+    },
   },
+
   {
     accessorKey: "lastUpdate",
-    header: "Última atualização",
+    header: ({ column }) => {
+      return (
+        <SortingColumns
+          columnName="Última atualização"
+          orderDataBy={column}
+        />
+      )
+    },
   },
+
   {
     id: "actions",
     cell: ({ row }) => {
